@@ -11,13 +11,13 @@ Method: Adapted from Gerardo‑Nieto et al. (2017), using a 4.24 L chamber wit
 Data: Time series of CH₄ concentration recorded at 1 Hz. First 30 s discarded. Only regressions with R² > 0.82 are accepted. All measurements in triplicate.
 
 ### Contents
-
+```bash
 flux_app/
 ├── app.R             # Main Shiny application
 └── data/             # Example dataset
     ├── all_data.csv   # Raw gas concentration time series
     └── list_all.csv   # Metadata list of measurements (Type must be 'Flux')
-
+```bash
 ### Installation
 
 Ensure you have R (≥ 4.0) installed. Then install required packages:
