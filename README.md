@@ -1,9 +1,8 @@
-# flux_app
-LI‑COR Methane Flux Shiny App
+# LI‑COR Methane Flux Shiny App
 
 This repository contains a Shiny application to process and calculate methane (CH₄) fluxes from static floating chamber measurements connected to a LI‑COR portable greenhouse gas analyzer (LI‑7810).
 
-Overview
+## Overview
 
 Objective: Compute methane fluxes (mg m⁻² s⁻¹) using closed‑loop chamber data.
 
@@ -40,7 +39,7 @@ View the concentration vs. time plot, regression outputs, and computed flux (mg�
 
 Click Save computed fluxes to store results in a table and export to your R global environment as df_flux_final.
 
-Method Details
+# Method Details
 
 Chamber setup: 4.24 L volume, 453 cm² area.
 
@@ -48,8 +47,9 @@ Sampling: CH₄ concentration measured at 1 Hz. Discard first 30 s.
 
 Regression: Linear fit of concentration vs. time over 1–3 min; R² must exceed 0.82.
 
-Flux calculation:
+# Flux calculation:
 
+F = (ΔC/Δt) × (Vc / Ac) × Mg
 
 F: flux (mg m⁻² s⁻¹)
 
@@ -61,7 +61,7 @@ Ac: chamber area (m²)
 
 Mg: molecular mass of CH₄ (16.04 g mol⁻¹)
 
-Citation
+# Citation
 
 If you use this code, please cite the associated article:
 
