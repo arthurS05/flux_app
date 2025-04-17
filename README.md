@@ -12,11 +12,11 @@ Data: Time series of CH₄ concentration recorded at 1 Hz. First 30 s discar
 
 ### Contents
 
-flux_app/       # Shiny app code and data
-├── app.R       # Main Shiny application
-└── data/       # Example dataset
-    ├── all_data.csv    # Raw gas concentration time series
-    └── list_all.csv    # Metadata list of measurements (Type must be 'Flux')
+flux_app/
+├── app.R             # Main Shiny application
+└── data/             # Example dataset
+    ├── all_data.csv   # Raw gas concentration time series
+    └── list_all.csv   # Metadata list of measurements (Type must be 'Flux')
 
 ### Installation
 
