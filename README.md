@@ -17,13 +17,13 @@ flux_app/
 └── data/             # Example dataset
     ├── all_data.csv   # Raw gas concentration time series
     └── list_all.csv   # Metadata list of measurements (Type must be 'Flux')
-```bash
+```
 ### Installation
 
 Ensure you have R (≥ 4.0) installed. Then install required packages:
-
+```bash
 install.packages(c("shiny", "ggplot2", "DT", "here"))
-
+```
 ### Usage
 
 From the project root directory:
