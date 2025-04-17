@@ -16,7 +16,7 @@ flux_app/
 ├── app.R             # Main Shiny application
 └── data/             # Example dataset
     ├── all_data.csv   # Raw gas concentration time series
-    └── list_all.csv   # Metadata list of measurements (Type must be 'Flux')
+    └── list_all.csv   # Metadata list of measurements
 ```
 ### Installation
 
