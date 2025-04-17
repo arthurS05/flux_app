@@ -10,7 +10,7 @@ Method: Adapted from Gerardo‑Nieto et al. (2017), using a 4.24 L chamber wit
 
 Data: Time series of CH₄ concentration recorded at 1 Hz. First 30 s discarded. Only regressions with R² > 0.82 are accepted. All measurements in triplicate.
 
-Contents
+### Contents
 
 flux_app/       # Shiny app code and data
 ├── app.R       # Main Shiny application
@@ -18,13 +18,13 @@ flux_app/       # Shiny app code and data
     ├── all_data.csv    # Raw gas concentration time series
     └── list_all.csv    # Metadata list of measurements (Type must be 'Flux')
 
-Installation
+### Installation
 
 Ensure you have R (≥ 4.0) installed. Then install required packages:
 
 install.packages(c("shiny", "ggplot2", "DT", "here"))
 
-Usage
+### Usage
 
 From the project root directory:
 
@@ -41,11 +41,21 @@ Click Save computed fluxes to store results in a table and export to your R glob
 
 # Method Details
 
-Chamber setup: 4.24 L volume, 453 cm² area.
+## Chamber setup (user-configurable)
 
-Sampling: CH₄ concentration measured at 1 Hz. Discard first 30 s.
+Default volume: 4.24 L (set voltotal in the app header)
 
-Regression: Linear fit of concentration vs. time over 1–3 min; R² must exceed 0.82.
+Default surface area: 453 cm² (set surface_area in the app header)
+
+## Sampling protocol
+
+CH₄ concentration measured at 1 Hz.
+
+It is recommended to discard the first 30 s (configurable via the seconds-before setting) to avoid deployment disturbances.
+
+## Regression criteria
+
+Linear fit of concentration vs. time over 1–3 min
 
 # Flux calculation:
 
