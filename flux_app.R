@@ -13,7 +13,7 @@ library(DT)
 library(here)
 
 # 2) Define data folder ----
-data_dir <- here::here("data")
+data_dir <- here::here("path to_data_folder")
 
 # 3) File paths ----()
 all_data_path <- file.path(data_dir, "all_data.csv")
