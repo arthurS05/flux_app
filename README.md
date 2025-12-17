@@ -73,6 +73,4 @@ Mg: molecular mass of CH₄ (16.04 g mol⁻¹)
 
 # Citation
 
-If you use this code, please cite the associated article:
-
-Author(s) (2025). Title. Journal, vol, pages. DOI:XXXX
+If you use this code, please cite the associated article: Szylit A, Christaki U, Barret M, Cabrol L, Gandois L, Sejourne A, Bouchard F, Ollivier S, Jardillier L. Spatial Heterogeneity in Methane Biogeochemistry and Prokaryotic Community Structure in Sub-Arctic Waterbodies in Northern Canada. Environ Microbiol. 2025 Dec;27(12):e70210. doi: 10.1111/1462-2920.70210. PMID: 41320550; PMCID: PMC12665484.
